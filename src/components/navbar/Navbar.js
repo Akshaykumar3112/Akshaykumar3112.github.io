@@ -18,6 +18,7 @@ function Navbar(){
                 <li className="item"><Link to="/ourservices">OurServices</Link></li>
                 <li className="item"><Link to="/aboutus">About Us</Link></li>
                 <li className="item"><Link to="/contactus">Contact Us</Link></li>
+                <li className='item'><Link to="/cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></Link></li>
                 {/* <Link to="/home">Home</Link> */}
             </ul>
         </nav>
