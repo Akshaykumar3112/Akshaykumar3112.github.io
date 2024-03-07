@@ -1,0 +1,82 @@
+footer{
+   
+    background-color: black;
+}
+
+.footerContainer{
+    width:100%;
+    padding: 70px 30px 20px;
+}
+
+.footerContainer .box{
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer .box a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%; 
+}
+
+.footerContainer .box a i{
+ font-size: 2rem;
+ color: black;
+ opacity: 0.9;
+}
+
+.footerContainer .box a:hover{
+    
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.footerContainer .box a:hover i{
+    
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+opacity: 1;
+}
+
+
+.footerBottom{
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+   color: white; 
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+/* Footer end  */

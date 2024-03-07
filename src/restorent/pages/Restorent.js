@@ -1,10 +1,13 @@
 import '../css/Pesto.css';
 import Services from '../components/Services';
 import OurTeam from '../components/OurTeam';
-function Home() {
+import Navbar from '../components/navbar/Navbar';
+import Footer from '../components/footer/Footer';
+function Restorent() {
   
     return (
         <>
+            <Navbar/>
             <section id="home">
                 <h1 className="h-primary"> Welcome to Pesto Italian Food</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dignissimos asperiores sunt molestiae, </p>
@@ -12,8 +15,9 @@ function Home() {
             </section>
             <Services/>
             <OurTeam/>
+            <Footer/>
         </>
 
     );
 }
-export default Home;
+export default Restorent;

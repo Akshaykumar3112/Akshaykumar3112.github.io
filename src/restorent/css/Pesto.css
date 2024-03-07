@@ -517,7 +517,7 @@
 
 
 /* About Us  */
-#about{
+#aboutus{
     display: flex;
     flex-direction: column;
     padding: 10px 15px;
@@ -527,7 +527,7 @@
     
 }
 
-#about::before{
+#aboutus::before{
     content: "";
     position: absolute;
     background-position: center;
@@ -543,14 +543,14 @@
     z-index: -1;
     opacity: 0.8; 
 }
-.about{
+.aboutus{
     width: 100%;
     padding: 10px 0px;
     background-color: rgb(246, 248, 248);
     
 }
 
-.about img{
+.aboutus img{
     width:50%;
     height: auto;
     
@@ -616,13 +616,22 @@
     cursor: pointer;
 }
 
-.btn-small:hover{
+
+.btn-small:hover, .btn-ex-small:hover {
    
     border: 2px solid white;
     background-color: brown;
     color: white;
 }
-
+.btn-ex-small{
+    padding: 4px 10px;
+    border: 2px solid brown;
+    color: black;
+    margin: 17px;
+    font-size: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
 .center{
     text-align: center;
 }

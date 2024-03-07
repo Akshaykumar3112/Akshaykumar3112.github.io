@@ -1,3 +1,5 @@
+import Footer from '../components/footer/Footer';
+import Navbar from '../components/navbar/Navbar';
 import '../css/Pesto.css';
 import m1 from '../images/m1.jpeg';
 import m2 from '../images/m2.jpeg';
@@ -5,6 +7,8 @@ import m3 from '../images/m3.jpeg';
 
 function Cart(){
     return(
+        <>
+        <Navbar/>
         <section className='cart'>
             
             <div className='row'>
@@ -79,7 +83,8 @@ function Cart(){
                 </div>
             </div>
         </section>
-
+        <Footer/>
+        </>
     );
 }
 

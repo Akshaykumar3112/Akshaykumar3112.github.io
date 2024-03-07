@@ -1,0 +1,119 @@
+.about{
+    width: 100%;
+    display: flex ;
+    
+}
+.about .content{
+    background-color: #21325e;
+    width:70%;
+    margin: 10px 0px;
+    
+}
+
+.about .aboutme{
+    display: flex; 
+}
+
+.about .aboutme h1{
+    font-size: 50px;
+    font-weight: 600px;
+    color:  #e9d35b;
+}
+.about .aboutme .image{
+    margin:80px 30px;
+}
+
+
+.about .image img{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid red;
+}
+
+.about .aboutme .name{
+    color: white;
+    margin: auto 0px;
+}
+
+.about .aboutme .name h1{
+    text-align: left;
+}
+
+.about .info{
+    margin:auto;
+    width: 40%;
+    font-size: 35px;
+    color: white;
+}
+
+.social-link{
+    margin: 20px 0px;
+    
+}
+.social-link a{
+    font-size: 50px;
+    color: white;
+    padding: 10px;
+}
+
+
+.skills{
+    width: 30%;
+}
+.skilllist{
+    margin: 30px 40px;
+    padding-left:50px ;
+    text-align: left;
+    
+}
+.skilllist li{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 600;
+    margin: 10px 10px;
+    text-align: justify;
+    color: #21325e;
+}
+
+
+/* project */
+.projects{
+    width: 100%;
+    margin: 10px;
+}
+
+.projects .container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.projects .container a{
+    text-decoration: none;
+}
+.projects .container .cardlist{ 
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+.projects .container .cardlist .card{
+    margin: 20px auto;
+}
+
+.projects .container .cardlist .card img{
+    width: 400px;
+    border-radius: 15px;  
+}
+
+.card-info p{
+    color: #21325e;
+    font-size: 20px;
+}
+
+.title h1{
+    font-size: 35px;
+    color: #21325e;
+}
+/* project */

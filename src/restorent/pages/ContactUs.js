@@ -1,8 +1,11 @@
+import Footer from '../components/footer/Footer';
+import Navbar from '../components/navbar/Navbar';
 import '../css/Pesto.css';
 function ContactUs() {
   
     return (
         <>
+            <Navbar/>
             <section id="contactus">
             </section>
 
@@ -72,6 +75,7 @@ function ContactUs() {
                     </div>            
                 </div>        
             </section>
+            <Footer/>
         </>
     )
 

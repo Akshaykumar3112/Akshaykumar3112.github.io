@@ -2,14 +2,17 @@ import '../css/Pesto.css';
 import OurTeam from '../components/OurTeam';
 import About from '../images/121.jpg';
 import About2 from '../images/banner1.jpg';
+import Navbar from '../components/navbar/Navbar';
+import Footer from '../components/footer/Footer';
 function AboutUs() {
   
     return (
         <>
-            <section id="about">
+            <Navbar/>
+            <section id="aboutus">
                 <h1 className='h-primary'>Pesto Italian Food</h1>
             </section>
-            <section className="about">
+            <section className="aboutus">
                 <h1 className='h-primary'>Our Story</h1>
                 <div className="main"> 
                     <img src={About} alt=""/>
@@ -28,6 +31,7 @@ function AboutUs() {
             </section>
             
             <OurTeam/>
+            <Footer/>
         </>
 
     );

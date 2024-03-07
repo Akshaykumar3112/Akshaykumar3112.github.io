@@ -1,25 +1,21 @@
-import logo from './logo/logo1.jpg';
+
 import './css/Portfolio.css';
 import { Link } from 'react-router-dom';
 
 function Navbar(){
    
     return (
-        <nav id="navbar">
-            <div id="logo">
-                <img src={logo}  alt="Pesto Italian Food"/> 
+        <nav id="portfolio-navbar">
+            <div id="logo"> 
                 <div className='logo-text'>
-                    <h3>AKSHAYKUMAR</h3>
+                    <h3>PORTFOLIO</h3>
                 </div>
             </div>
-           
             <ul>
                 <li className="item"><Link to="/">Home</Link></li>
-                <li className="item"><Link to="/ourservices">OurServices</Link></li>
-                <li className="item"><Link to="/aboutus">About Us</Link></li>
-                <li className="item"><Link to="/contactus">Contact Us</Link></li>
-                <li className='item'><Link to="/cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></Link></li>
-                {/* <Link to="/home">Home</Link> */}
+                <li className="item"><Link to="/Projects">Projects</Link></li>
+                <li className="item"><Link to="/aboutus">Education</Link></li>
+                <li className="item"><Link to="/contactus">Experience</Link></li>
             </ul>
         </nav>
     );

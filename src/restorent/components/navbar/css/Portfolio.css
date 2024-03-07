@@ -6,20 +6,30 @@
 
 
 /* navigation bar */
-#portfolio-navbar{
+#navbar{
     display:flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
-    background-color: #21325e;
+    background-color: black;
     padding: 10px 150px;
     z-index: 1;
-    height: 100px;
     
     
 }
 
-  
+/* #navbar::before{
+    content: "";
+    background-color: black;
+    justify-items: center;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}  */
 
 
 /* navigation bar : Logo and Menu  */
@@ -29,7 +39,7 @@
     display: flex;
 }
 
-#portfolio-navbar #logo .logo-text{
+#navbar #logo .logo-text{
     color: white;
     margin: auto 20px;
     
@@ -42,19 +52,19 @@
    border-radius: 50%; 
 }
 
-#portfolio-navbar ul{
+#navbar ul{
     display: flex;
     font-family: 'Baloo Bhai 2', sans-serif;
     justify-content: center;
     align-items: center;
 }
 
-#portfolio-navbar ul li{
+#navbar ul li{
     list-style: none;
     position: relative;
 }
 
-#portfolio-navbar ul li a{
+#navbar ul li a{
     color: white;
     display: block;
     font-size: 24px; 
@@ -64,8 +74,8 @@
     text-decoration: none;
 }
 
-#portfolio-navbar ul li a:hover{
-    color: #21325e;
+#navbar ul li a:hover{
+    color: black;
     background-color: white ;
 
 }
