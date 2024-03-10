@@ -10,6 +10,7 @@ import Menu from './restorent/pages/Menu';
 import Cart from './restorent/pages/Cart';
 import Home from './Home';
 import Projects from './Projects';
+import BmiCalculator from './bmicalculator/BmiCalculator';
 
 function App() {
   return (
@@ -20,11 +21,15 @@ function App() {
             <Route path='/' element={<Home/>}/>
             <Route path='/projects' element={<Projects/>}/>
             <Route path='/projects/restorent' element={<Restorent/>}/>
+            <Route path='/projects/bmicalculator' element={<BmiCalculator/>}/>
+
             <Route path='/restorent/ourservices' element={<OurServices/>}/>
             <Route path='/restorent/aboutus' element={<AboutUs/>} />
             <Route path='/restorent/contactus' element={<ContactUs/>} />
             <Route path='/restorent/services/menu' element={<Menu/>} />
             <Route path='/restorent/cart' element={<Cart/>}/>
+            
+            
            
         </Routes>
         <Footer/>

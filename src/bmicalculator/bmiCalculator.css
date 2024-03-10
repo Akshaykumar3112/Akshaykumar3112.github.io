@@ -1,0 +1,48 @@
+.bmi{
+    width:100%;
+}
+.bmi .container{
+    width: 18%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: aqua;
+    border-radius: 15px;
+    text-align: left;
+    color: #21325e;
+}
+
+.card{
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+.container h1{
+    color: #21325e;
+    padding: 20px;
+}
+
+.container input{
+    margin: 10px 0px;
+    width: 200px;
+    border-radius:5px ;
+}
+
+.container label{
+    width:200px;
+    text-align: left;
+}
+
+ .bmi .container button{
+    margin-left: 65px;
+    margin-bottom: 15px;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    border-color: #21325e;
+    color: #21325e;
+}
+.bmi .container button:hover{
+   background-color: #21325e ;
+    border-color: white;
+    color: white;
+
+} 

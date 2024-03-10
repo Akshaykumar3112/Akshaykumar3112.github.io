@@ -26,9 +26,9 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
-    top:0px;
+    top: 140px;
     left:0px;
-    height: 60%;
+    height: 550px;
     width: 100%;
     z-index: -1;
     opacity: 0.8; 
@@ -325,6 +325,7 @@
 .team-section .container{
     width:80%;
     margin: auto;
+    
 }
 .team-section .container .row{
     width:60%;
@@ -364,7 +365,7 @@
     align-items: center;
     border-radius: 22px;
     padding: 20px;
-    margin: 0px 10px;
+    margin: 0px 20px;
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
@@ -623,6 +624,7 @@
     background-color: brown;
     color: white;
 }
+
 .btn-ex-small{
     padding: 4px 10px;
     border: 2px solid brown;

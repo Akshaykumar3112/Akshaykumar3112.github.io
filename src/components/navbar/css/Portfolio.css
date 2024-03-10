@@ -14,16 +14,14 @@
     background-color: #21325e;
     padding: 10px 150px;
     z-index: 1;
-    height: 100px;
-    
-    
+    height: 100px; 
 }
 
   
 
 
 /* navigation bar : Logo and Menu  */
-#logo{
+#portfolio-navbar #logo{
     margin: 0px 30px;
     color: white;
     display: flex;
@@ -35,7 +33,7 @@
     
 }
 
-#logo img{
+#portfolio-navbar #logo img{
    height: 65px;
    width: 65px;
    margin: 4px 7px;

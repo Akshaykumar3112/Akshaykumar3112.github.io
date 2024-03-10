@@ -13,7 +13,7 @@ function Services() {
                 
                 <div id="services">
                     <div className="box">
-                        <Link to="/services/menu">
+                        <Link to="/restorent/services/menu">
                             <img src={din} alt=""/>
                             <h2 className="h-secondary center">
                                 Din In

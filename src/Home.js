@@ -2,7 +2,7 @@ import './portfolio.css';
 import image from './image/logo1.jpg';
 function Home(){
     return(
-        <section className='about'>
+        <section id='home-portfolio'>
             <div className='content'>
                 <div className='aboutme'>
                     <div className='image'>
