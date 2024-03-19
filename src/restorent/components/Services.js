@@ -22,7 +22,7 @@ function Services() {
                         </Link>
                     </div>
                     <div className="box">
-                        <Link to="/services/menu">
+                        <Link to="/restorent/services/menu">
                             <img src={catering} alt=""/>
                             <h2 className="h-secondary center">
                                 Catering Service
@@ -31,7 +31,7 @@ function Services() {
                         </Link>
                     </div>
                     <div className="box">
-                        <Link to="/services/menu">
+                        <Link to="/restorent/services/menu">
                             <img src={delivery} alt=""/>
                             <h2 className="h-secondary center">
                                 Home Delivery

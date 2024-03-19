@@ -28,10 +28,6 @@ function Home(){
 
                         <li>Strong understanding of database (MySQL).</li>
 
-                        <li>Experience with CMS platforms such as WordPress.</li>
-
-                        <li>Ability to develop and implement Firebase Authentication </li>
-
                         <li>Excellent problem-solving and analytical skills</li>
 
                         <li>Understanding with version control systems such as Git.</li>

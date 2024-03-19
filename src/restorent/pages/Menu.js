@@ -1,17 +1,41 @@
+import Footer from '../components/footer/Footer';
+import Navbar from '../components/navbar/Navbar';
 import '../css/Pesto.css';
 import item1 from '../images/m1.jpeg';
 import item2 from '../images/m2.jpeg';
 import item3 from '../images/m3.jpeg';
 import item4 from '../images/m4.jpeg';
 import item5 from '../images/m6.jpeg';
+import React from 'react';
 
 
 function Menu(){
+    
+    const [quantity, setQuantity] = React.useState("");
+    let newValue;
+    const addQuantity = () => {
+        newValue = Number(quantity)  + 1;
+        setQuantity(newValue);
+        return;
+    }
+    const subQuantity = () => {
+        if(quantity !== 0){
+            newValue = Number(quantity)  - 1;
+            setQuantity(newValue);
+            return;
+        }else{
+            return;
+        }
+    }
+    
+    
+    
     return(
         <>
+        <Navbar/>
         <div className='manu-banner'>
         </div>
-
+        
         <section className='menu-section'>
             <div className='container'>
                 <div className='row'>
@@ -28,6 +52,11 @@ function Menu(){
                         <div className='content'>
                             <h3 className='h-secondary'>Dish Name</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            
+                            <button className='btnMinus' onClick={()=>subQuantity()}>-</button>
+                            <input type='number' id="quantity" name='quantity' value={quantity} className='foodQuantity' />
+                            <button className='btnPlus' onClick={()=>addQuantity()}  >+</button>
+                            
                             <button className='btn-small' name="btn-add">ADD TO CART</button>
                         </div>
                     </div>
@@ -38,6 +67,7 @@ function Menu(){
                         <div className='content'>
                             <h3 className='h-secondary'>Dish Name</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                           
                             <button className='btn-small' name="btn-add">ADD TO CART</button>
                         </div>
                     </div>
@@ -48,6 +78,7 @@ function Menu(){
                         <div className='content'>
                             <h3 className='h-secondary'>Dish Name</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            
                             <button className='btn-small' name="btn-add">ADD TO CART</button>
                         </div>
                     </div>
@@ -58,6 +89,7 @@ function Menu(){
                         <div className='content'>
                             <h3 className='h-secondary'>Dish Name</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            
                             <button className='btn-small' name="btn-add">ADD TO CART</button>
                         </div>
                     </div>
@@ -68,6 +100,7 @@ function Menu(){
                         <div className='content'>
                             <h3 className='h-secondary'>Dish Name</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            
                             <button className='btn-small' name="btn-add">ADD TO CART</button>
                         </div>
                     </div>
@@ -81,6 +114,7 @@ function Menu(){
                         <div className='content'>
                             <h3 className='h-secondary'>Dish Name</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            
                             <button className='btn-small' name="btn-add">ADD TO CART</button>
                         </div>
                     </div>
@@ -91,6 +125,7 @@ function Menu(){
                         <div className='content'>
                             <h3 className='h-secondary'>Dish Name</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            
                             <button className='btn-small' name="btn-add">ADD TO CART</button>
                         </div>
                     </div>
@@ -101,6 +136,7 @@ function Menu(){
                         <div className='content'>
                             <h3 className='h-secondary'>Dish Name</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            
                             <button className='btn-small' name="btn-add">ADD TO CART</button>
                         </div>
                     </div>
@@ -111,6 +147,7 @@ function Menu(){
                         <div className='content'>
                             <h3 className='h-secondary'>Dish Name</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            
                             <button className='btn-small' name="btn-add">ADD TO CART</button>
                         </div>
                     </div>
@@ -121,6 +158,7 @@ function Menu(){
                         <div className='content'>
                             <h3 className='h-secondary'>Dish Name</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            
                             <button className='btn-small' name="btn-add">ADD TO CART</button>
                         </div>
                     </div>
@@ -128,6 +166,7 @@ function Menu(){
                 </div>
             </div>
             </section>
+            <Footer/>
         </>
     );
 }

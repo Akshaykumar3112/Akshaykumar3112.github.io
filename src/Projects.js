@@ -32,17 +32,19 @@ function Projects(){
                         </div>
                     </div>
                 </Link>
-                <div className='cardlist'>
-                    <div className='card'>
-                        <img src={Restorent} alt="" />
+                <Link  to="/projects/dictionary">
+                    <div className='cardlist'>
+                        <div className='card'>
+                            <img src={Restorent} alt="" />
+                        </div>
+                        <div className='card-info'>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <div className='title'>
+                            <h1>Dictionary App</h1>
+                        </div>
                     </div>
-                    <div className='card-info'>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div className='title'>
-                        <h1>Dictonary App</h1>
-                    </div>
-                </div>
+                </Link>
             </div>
         </section>
     );

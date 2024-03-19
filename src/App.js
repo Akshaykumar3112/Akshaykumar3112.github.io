@@ -11,6 +11,7 @@ import Cart from './restorent/pages/Cart';
 import Home from './Home';
 import Projects from './Projects';
 import BmiCalculator from './bmicalculator/BmiCalculator';
+import Dictionary from './dictionary/Dictionary';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
             <Route path='/projects' element={<Projects/>}/>
             <Route path='/projects/restorent' element={<Restorent/>}/>
             <Route path='/projects/bmicalculator' element={<BmiCalculator/>}/>
-
+            <Route path='/projects/dictionary' element={<Dictionary/>}/>
+        
             <Route path='/restorent/ourservices' element={<OurServices/>}/>
             <Route path='/restorent/aboutus' element={<AboutUs/>} />
             <Route path='/restorent/contactus' element={<ContactUs/>} />

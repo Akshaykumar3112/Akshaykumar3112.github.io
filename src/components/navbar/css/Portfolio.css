@@ -30,7 +30,7 @@
 #portfolio-navbar #logo .logo-text{
     color: white;
     margin: auto 20px;
-    
+    text-shadow: 02px 2px 5px red ;    
 }
 
 #portfolio-navbar #logo img{

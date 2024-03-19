@@ -1,11 +1,16 @@
 .portfolio-footer{
    
     background-color: #21325e;
+    width:100%;
+    position: fixed;
+    bottom: 0;
 }
 
 .portfolio-footer .footerContainer{
     width:100%;
     padding: 10px 30px 10px;
+    
+   
 }
 .portfolio-footer .footerBottom{
     padding: 20px;
