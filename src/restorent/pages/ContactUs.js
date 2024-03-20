@@ -1,6 +1,6 @@
 import Footer from '../components/footer/Footer';
 import Navbar from '../components/navbar/Navbar';
-import '../css/Pesto.css';
+import '../css/restorent.css';
 function ContactUs() {
   
     return (

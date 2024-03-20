@@ -2,7 +2,7 @@ import member1 from '../images/t1.jpg';
 import member2 from '../images/member1.png';
 import member3 from '../images/t2.jpg';
 import member4 from '../images/member2.png';
-import '../css/Pesto.css';
+import '../css/restorent.css';
 function OurTeam() {
   
     return (

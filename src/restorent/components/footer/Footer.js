@@ -1,4 +1,4 @@
-import './css/PortfolioFooter.css';
+import './css/restorentfooter.css';
 import { Link } from 'react-router-dom';
 
 function Footer() {

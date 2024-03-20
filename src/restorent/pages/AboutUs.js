@@ -1,4 +1,4 @@
-import '../css/Pesto.css';
+import '../css/restorent.css';
 import OurTeam from '../components/OurTeam';
 import About from '../images/121.jpg';
 import About2 from '../images/banner1.jpg';

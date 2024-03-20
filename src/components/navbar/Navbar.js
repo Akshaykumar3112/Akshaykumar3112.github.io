@@ -1,5 +1,5 @@
 
-import './css/Portfolio.css';
+import './css/portfolionavbar.css';
 import { Link } from 'react-router-dom';
 
 function Navbar(){

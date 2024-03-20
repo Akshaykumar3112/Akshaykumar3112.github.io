@@ -1,4 +1,4 @@
-import '../css/Pesto.css';
+import '../css/restorent.css';
 import Services from '../components/Services';
 import OurTeam from '../components/OurTeam';
 import Navbar from '../components/navbar/Navbar';

@@ -62,7 +62,6 @@ function Dictionary(){
                     </audio>
                     <Typography variant="body1">Word: {word} / [{result.partOfSpeech}]
                     </Typography> 
-                    
                     <Typography variant="body1"> Meaning: {result.meaning} 
                     </Typography>
                     <Typography variant="body1"> Phonetic: {result.phonetic} 

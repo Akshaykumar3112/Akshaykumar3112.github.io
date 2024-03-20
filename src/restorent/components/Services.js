@@ -2,7 +2,7 @@ import din from '../images/6.png';
 import catering from '../images/7.png';
 import delivery from '../images/8.png';
 import {Link} from 'react-router-dom';
-import '../css/Pesto.css';
+import '../css/restorent.css';
 function Services() {
   
     return (

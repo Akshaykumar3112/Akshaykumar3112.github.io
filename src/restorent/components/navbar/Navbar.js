@@ -1,5 +1,5 @@
 import logo from './logo/logo1.jpg';
-import './css/Portfolio.css';
+import './css/restorentnavbar.css';
 import { Link } from 'react-router-dom';
 
 function Navbar(){

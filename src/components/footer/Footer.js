@@ -1,4 +1,4 @@
-import './css/PortfolioFooter.css';
+import './css/portfoliofooter.css';
 
 
 function Footer() {

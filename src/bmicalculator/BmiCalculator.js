@@ -19,7 +19,6 @@ function BmiCalculator(){
             return
         }
         setHeightErrorMessage("");
-
         if(weight <= 0){
             setWeightErrorMessage("Enter valid Weight");
             bmi='';
@@ -27,7 +26,6 @@ function BmiCalculator(){
             return
         }
         setWeightErrorMessage("");
-
         bmi = weight/((height/100)*(height/100));
         setCalculatedBMI(bmi);
 
@@ -45,6 +43,7 @@ function BmiCalculator(){
     
     return(
         <section className="bmi">
+            
             <div className="container">
             <h1>BMI Calculator</h1>
                 <div className="card">
@@ -76,6 +75,8 @@ function BmiCalculator(){
                     <span style={{color:rangeColor}}>{bmiRange}</span><br/>
                     
                 </div>
+
+                
             </div>
         </section>
     );
