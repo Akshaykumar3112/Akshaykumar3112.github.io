@@ -67,7 +67,7 @@ function Projects(){
                             <img src={calculator} alt="" />
                         </div>
                         <div className='card-info'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p>Lorem im ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                         <div className='title'>
                             <h1>Calculator</h1>
