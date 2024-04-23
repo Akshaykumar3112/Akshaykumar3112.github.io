@@ -48,7 +48,7 @@ function BmiCalculator(){
             <h1>BMI Calculator</h1>
                 <div className="card">
                     
-                    <label> Enter Hight In CM</label><br/>
+                    <label> Enter Height In CM</label><br/>
                     <input
                         type= "number"
                         min = {0}

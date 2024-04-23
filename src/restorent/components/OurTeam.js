@@ -3,6 +3,7 @@ import member2 from '../images/member1.png';
 import member3 from '../images/t2.jpg';
 import member4 from '../images/member2.png';
 import '../css/restorent.css';
+import TeamCard from './TeamCard';
 function OurTeam() {
   
     return (
@@ -15,47 +16,33 @@ function OurTeam() {
                     </div>
                 </div>
                 <div className="team-card">
-                    <div className="card">
-                        <div className="image-section">
-                            <img src={member1} alt=""/>
-                        </div>
-                        <div className="content">
-                            <h3>Cherry</h3>
-                            <h5>Head shef</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sed tempore earum perferendis eveniet quasi. Sequi hic et aliquam aperiam!</p>
-                        </div>
-                    </div>
-                
-                    <div className="card">
-                        <div className="image-section">
-                            <img src={member2} alt=""/>
-                        </div>
-                        <div className="content">
-                            <h3>Jeny</h3>
-                            <h5>Head shef</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sed tempore earum perferendis eveniet quasi. Sequi hic et aliquam aperiam!</p>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="image-section">
-                            <img src={member3} alt=""/>
-                        </div>
-                        <div className="content">
-                            <h3>Bryan</h3>
-                            <h5>Assistent shef</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sed tempore earum perferendis eveniet quasi. Sequi hic et aliquam aperiam!</p>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="image-section">
-                            <img src={member4} alt=""/>
-                        </div>
-                        <div className="content">
-                            <h3>Justin</h3>
-                            <h5>Assistent shef</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sed tempore earum perferendis eveniet quasi. Sequi hic et aliquam aperiam!</p>
-                        </div>
-                    </div>
+                    <TeamCard 
+                        img={member1} 
+                        name="Devid" 
+                        position="Head Shef"
+                        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sed tempore earum perferendis eveniet quasi. Sequi hic et aliquam aperiam!" 
+                    /> 
+
+                    <TeamCard 
+                        img={member2} 
+                        name="Jeny" 
+                        position="Head Shef"
+                        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sed tempore earum perferendis eveniet quasi. Sequi hic et aliquam aperiam!" 
+                    />
+                    
+                    <TeamCard 
+                        img={member3} 
+                        name="Bryan" 
+                        position="Assistant Shef"
+                        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sed tempore earum perferendis eveniet quasi. Sequi hic et aliquam aperiam!" 
+                    />
+
+                    <TeamCard 
+                        img={member4} 
+                        name="Justin" 
+                        position="Assistant Shef"
+                        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sed tempore earum perferendis eveniet quasi. Sequi hic et aliquam aperiam!" 
+                    />  
                 </div>
             </div>
         </div>

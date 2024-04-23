@@ -1,8 +1,10 @@
+
 import din from '../images/6.png';
 import catering from '../images/7.png';
 import delivery from '../images/8.png';
-import {Link} from 'react-router-dom';
 import '../css/restorent.css';
+import ServiceCard from './ServiceCard';
+
 function Services() {
   
     return (
@@ -12,33 +14,26 @@ function Services() {
                 </h1>
                 
                 <div id="services">
-                    <div className="box">
-                        <Link to="/restorent/services/menu">
-                            <img src={din} alt=""/>
-                            <h2 className="h-secondary center">
-                                Din In
-                            </h2>
-                            <p className="center">Lorem ipsum dolor sit, Ipsum quaerat mollitia iure, omnis vel quia culpa similique iusto delectus quidem modi, nobis obcaecati facilis</p>
-                        </Link>
-                    </div>
-                    <div className="box">
-                        <Link to="/restorent/services/menu">
-                            <img src={catering} alt=""/>
-                            <h2 className="h-secondary center">
-                                Catering Service
-                            </h2>
-                            <p className="center">Lorem ipsum dolor sit, Ipsum quaerat mollitia iure, omnis vel quia culpa similique iusto delectus quidem modi, nobis obcaecati facilis</p>
-                        </Link>
-                    </div>
-                    <div className="box">
-                        <Link to="/restorent/services/menu">
-                            <img src={delivery} alt=""/>
-                            <h2 className="h-secondary center">
-                                Home Delivery
-                            </h2>
-                            <p className="center">Lorem ipsum dolor sit, Ipsum quaerat mollitia iure, omnis vel quia culpa similique iusto delectus quidem modi, nobis obcaecati facilis</p>
-                        </Link>
-                    </div>
+                   <ServiceCard 
+                        img={din}
+                        name="Dine In"
+                        link="/restorent/services/menu"
+                        text="Lorem ipsum dolor sit, Ipsum quaerat mollitia iure, omnis vel quia culpa similique iusto delectus quidem modi, nobis obcaecati facilis" 
+                    />
+
+                    <ServiceCard 
+                        img={catering}
+                        name="Catering Service"
+                        link="/restorent/services/menu"
+                        text="Lorem ipsum dolor sit, Ipsum quaerat mollitia iure, omnis vel quia culpa similique iusto delectus quidem modi, nobis obcaecati facilis" 
+                    />
+
+                    <ServiceCard 
+                        img={delivery}
+                        name="Home Delivery"
+                        link="/restorent/services/menu"
+                        text="Lorem ipsum dolor sit, Ipsum quaerat mollitia iure, omnis vel quia culpa similique iusto delectus quidem modi, nobis obcaecati facilis" 
+                    />
                 </div>
         </section>
     );

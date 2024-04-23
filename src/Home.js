@@ -1,5 +1,5 @@
 import './portfolio.css';
-import image from './image/logo1.jpg';
+import image from './image/aaaa.jpg';
 function Home(){
     return(
         <section id='home-portfolio'>

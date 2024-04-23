@@ -54,7 +54,7 @@ function Menu(){
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             
                             <button className='btnMinus' onClick={()=>subQuantity()}>-</button>
-                            <input type='number' id="quantity" name='quantity' min={0} value={quantity} className='foodQuantity' />
+                            <input type='number' appearance="none" id="quantity" name='quantity' min={0} value={quantity} className='foodQuantity' />
                             <button className='btnPlus' onClick={()=>addQuantity()}  >+</button>
                             
                             <button className='btn-small' name="btn-add">ADD TO CART</button>

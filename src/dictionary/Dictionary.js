@@ -18,9 +18,9 @@ function Dictionary(){
         fetch(url)
         .then(res =>{
             console.log("res:::", res);
-            return res.json();
+            return res.json(); // Resolving result
         })
-        .then(data=>{
+        .then(data=>{  //resolving data responce
 
             console.log("data:::", data);
             setResult({
@@ -30,7 +30,7 @@ function Dictionary(){
                 audio: data[0].phonetics[0].audio,
 
             });
-            setFetchCompleted(true);
+            setFetchCompleted(true); // updating state of fetch complite
         });
        
     };
