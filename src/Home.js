@@ -15,8 +15,8 @@ function Home(){
                 <div className='info'>
                     <p>A developer with a passion for learning and creating. I am a team player and seeking opportunities to grow.</p>
                     <div className='social-link'>
-                        <a href="https://www.google.com/"><i className="fa-brands fa-linkedin"></i></a>
-                        <a href="https://www.google.com/"><i className="fa-brands fa-github"></i></a> 
+                        <a href="www.linkedin.com/in/akshaykumar-kajavadara-88b933156"><i className="fa-brands fa-linkedin"></i></a>
+                        <a href="https://akshaykumar3112.github.io/"><i className="fa-brands fa-github"></i></a> 
                     </div>
                 </div>
             </div>
