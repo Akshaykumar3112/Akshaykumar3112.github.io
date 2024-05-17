@@ -48,19 +48,7 @@ function Projects(){
                     </div>
                 </Link>
                 
-                <Link  to="/projects/todoapp">
-                    <div className='cardlist'> 
-                        <div className='card'>
-                            <img src={Restorent} alt="" />
-                        </div>
-                        <div className='card-info'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                        <div className='title'>
-                            <h1>To DO App</h1>
-                        </div>
-                    </div>
-                </Link>
+                
                 <Link  to="/projects/calculator">
                     <div className='cardlist'> 
                         <div className='card'>
