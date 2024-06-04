@@ -1,8 +1,19 @@
+@media only screen and (min-width: 768px){
+    .bmi{
+        width:100%;
+    }
+    .bmi .container{
+        width: 30%;
+    }
+    
+}
+
 .bmi{
     width:100%;
+    min-height: 500px;
 }
 .bmi .container{
-    width: 18%;
+    width: 30%;
     margin: 50px auto;
     padding: 30px;
     
@@ -10,7 +21,6 @@
     background-color: rgb(218, 235, 235);
     color: #21325e;
 }
-
 .card{
     margin: 0 auto;
     padding: 0px 0px;
@@ -48,3 +58,4 @@
     color: white;
 
 } 
+

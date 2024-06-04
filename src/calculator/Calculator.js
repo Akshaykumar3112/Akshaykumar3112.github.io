@@ -119,7 +119,7 @@ export default function Calculator() {
       <Button variant="contained" size="large" style={{margin:'5px'}} onClick={() => sum('mul')} sx={{ mr: 1 }}>
         *
       </Button> <br />
-      <Button variant="contained" size="large" style={{margin:'5px'}} onClick={() => sum('division')} sx={{ mr: 1 }}>
+      <Button variant="contained" size="large" style={{margin:'5px'}} onClick={() => sum('div')} sx={{ mr: 1 }}>
         /
       </Button>
       

@@ -14,8 +14,8 @@ function Navbar(){
             <ul>
                 <li className="item"><Link to="/">Home</Link></li>
                 <li className="item"><Link to="/Projects">Projects</Link></li>
-                <li className="item"><Link to="/aboutus">Education</Link></li>
-                <li className="item"><Link to="/contactus">Experience</Link></li>
+                <li className="item"><Link to="/aboutus">About</Link></li>
+                <li className="item"><Link to="/contactus">Contact</Link></li>
             </ul>
         </nav>
     );

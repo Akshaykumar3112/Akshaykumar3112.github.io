@@ -2,7 +2,6 @@
    
     background-color: #21325e;
     width:100%;
-    position: fixed;
     bottom: 0;
 }
 
@@ -13,7 +12,7 @@
    
 }
 .portfolio-footer .footerBottom{
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 

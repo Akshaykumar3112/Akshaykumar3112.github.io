@@ -8,7 +8,7 @@ function Projects(){
     return(
         <section id='projects'>
             <div className='container'>
-                <Link  to="/projects/restorent">
+                <Link  to="https://akshaykumar3112.github.io/restorent">
                     <div className='cardlist'> 
                         <div className='card'>
                             <img src={Restorent} alt="" />
