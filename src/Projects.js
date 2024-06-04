@@ -8,7 +8,7 @@ function Projects(){
     return(
         <section id='projects'>
             <div className='container'>
-                <a  href="https://akshaykumar3112.github.io/restorent" target="_blenk" rel="noopener noreferrer">
+                <a  href="https://akshaykumar3112.github.io/restorent" target="_blank" rel="noopener noreferrer">
                     <div className='cardlist'> 
                         <div className='card'>
                             <img src={Restorent} alt="" />
