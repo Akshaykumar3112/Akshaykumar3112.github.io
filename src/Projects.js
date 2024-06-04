@@ -8,7 +8,7 @@ function Projects(){
     return(
         <section id='projects'>
             <div className='container'>
-                <Link  to="https://akshaykumar3112.github.io/restorent">
+                <a  href="https://akshaykumar3112.github.io/restorent" target="_blenk" rel="noopener noreferrer">
                     <div className='cardlist'> 
                         <div className='card'>
                             <img src={Restorent} alt="" />
@@ -20,7 +20,7 @@ function Projects(){
                             <h1>Restorent</h1>
                         </div>
                     </div>
-                </Link>
+                </a>
                 <Link  to="/projects/bmicalculator">
                     <div className='cardlist'>
                         <div className='card'>
