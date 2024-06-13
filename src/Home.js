@@ -98,7 +98,7 @@ function Home() {
               }}
             >
                 <a
-            href="https://drive.google.com/file/d/1v-zegtR_Ba_-n0rXxdO4pzEfjDnEzsnq/view?usp=drivesdk"
+            href="https://docs.google.com/document/d/1wBO-2ZnasD4zZ0SIpA162kPJ1UeznSvz/edit"
             
             style={{ textDecoration: "none", color: "inherit" }}
           >
