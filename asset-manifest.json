@@ -1,40 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7244588.css",
-    "main.js": "/static/js/main.b21b68e6.js",
+    "main.css": "/static/css/main.85632dfd.css",
+    "main.js": "/static/js/main.68b420d8.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
-    "static/media/t2.jpg": "/static/media/t2.9022a708c6e81dc7b8c9.jpg",
-    "static/media/logo1.jpg": "/static/media/logo1.c104dfccc3ff5992b9cd.jpg",
-    "static/media/t1.jpg": "/static/media/t1.ca5570f7f68795cbcad6.jpg",
     "static/media/restorent.png": "/static/media/restorent.095f39d17bf7bb76584e.png",
-    "static/media/121.jpg": "/static/media/121.cadd92cc940b21a06e27.jpg",
-    "static/media/bg1.jpg": "/static/media/bg1.dd6c2863c7c4650ed202.jpg",
-    "static/media/7.png": "/static/media/7.136f8bc0bc6137163883.png",
-    "static/media/8.png": "/static/media/8.6d12e57345531d80d4a4.png",
-    "static/media/bg3.jpg": "/static/media/bg3.ca3b59129817b2b60c4f.jpg",
-    "static/media/banner1.jpg": "/static/media/banner1.3c815fcc2b6d01fc3ddc.jpg",
-    "static/media/contact1.jpg": "/static/media/contact1.bca3f6e3f68e7d01fb7b.jpg",
-    "static/media/m1.jpeg": "/static/media/m1.a7ba634cbba2e94628b0.jpeg",
-    "static/media/member2.png": "/static/media/member2.bfcbc1ccefe7c97a8f20.png",
-    "static/media/about3.jpg": "/static/media/about3.5d89543c70175d694532.jpg",
-    "static/media/member1.png": "/static/media/member1.44bec48fbc1bdd382987.png",
-    "static/media/m16.jpeg": "/static/media/m16.62898c51c538c9de5559.jpeg",
-    "static/media/m4.jpeg": "/static/media/m4.44bd2a6d2f0ee09aa6f3.jpeg",
     "static/media/bmi.png": "/static/media/bmi.8957ba13f2733223e0de.png",
-    "static/media/m2.jpeg": "/static/media/m2.85ce8d2cdac52b10221c.jpeg",
-    "static/media/m3.jpeg": "/static/media/m3.120dde06d154904ce21f.jpeg",
-    "static/media/m6.jpeg": "/static/media/m6.a104f4342c37a466ad17.jpeg",
-    "static/media/6.png": "/static/media/6.12e178f6037ac92ba841.png",
     "static/media/aaaa.jpg": "/static/media/aaaa.165e93141dcd06235377.jpg",
     "static/media/dictionary.png": "/static/media/dictionary.bfb57bbfe036746757ef.png",
     "static/media/calculator.png": "/static/media/calculator.d7c892f6efda91b34b91.png",
     "index.html": "/index.html",
-    "main.a7244588.css.map": "/static/css/main.a7244588.css.map",
-    "main.b21b68e6.js.map": "/static/js/main.b21b68e6.js.map",
+    "main.85632dfd.css.map": "/static/css/main.85632dfd.css.map",
+    "main.68b420d8.js.map": "/static/js/main.68b420d8.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7244588.css",
-    "static/js/main.b21b68e6.js"
+    "static/css/main.85632dfd.css",
+    "static/js/main.68b420d8.js"
   ]
 }
