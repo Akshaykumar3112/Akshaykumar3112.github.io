@@ -1,69 +1,38 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-/* navigation bar */
-#portfolio-navbar{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    background-color: #21325e;
-    padding: 10px 100px;
-    z-index: 1;
-    height: 70px; 
-}
-
-  
-
-
-/* navigation bar : Logo and Menu  */
-#portfolio-navbar #logo{
-    margin: 0px 30px;
-    color: white;
-    display: flex;
-}
-
-#portfolio-navbar #logo .logo-text{
-    color: white;
-    margin: auto 20px;
-    text-shadow: 02px 2px 5px red ;    
-}
-
-#portfolio-navbar #logo img{
-   height: 65px;
-   width: 65px;
-   margin: 4px 7px;
-   border-radius: 50%; 
-}
-
-#portfolio-navbar ul{
-    display: flex;
-    font-family: 'Baloo Bhai 2', sans-serif;
-    justify-content: center;
-    align-items: center;
-}
-
-#portfolio-navbar ul li{
+.naviagation-menu{
     list-style: none;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#portfolio-navbar ul li a{
+.naviagation-menu li{
+    margin: 0px 20px;
+}
+
+.naviagation-menu li a{
+    font-size: 1.5rem;
     color: white;
-    display: block;
-    font-size: 24px; 
-    padding: 0px 22px;
-    border-radius: 20px;
-    font-weight: 500;
     text-decoration: none;
 }
 
-#portfolio-navbar ul li a:hover{
-    color: #21325e;
-    background-color: white ;
-
+.naviagation-menu li a:hover{
+    color: goldenrod;
 }
+
+.active{
+    color: goldenrod !important;
+}
+.mobile-navigation{
+    list-style: none;
+}
+
+.mobile-navigation li{
+    margin-top: 20px;
+}
+
+.mobile-navigation li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+}
+

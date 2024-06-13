@@ -11,6 +11,7 @@
 .bmi{
     width:100%;
     min-height: 500px;
+    text-align: center;
 }
 .bmi .container{
     width: 30%;
@@ -21,7 +22,7 @@
     background-color: rgb(218, 235, 235);
     color: #21325e;
 }
-.card{
+.bmi-card{
     margin: 0 auto;
     padding: 0px 0px;
     width: 80%;

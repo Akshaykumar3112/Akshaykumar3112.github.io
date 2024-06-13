@@ -1,71 +1,90 @@
-import './portfolio.css';
-import Restorent from './image/restorent.png';
-import Bmi from './image/bmi.png';
-import dictionary from './image/dictionary.png';
-import calculator from './image/calculator.png' ;
-import { Link } from 'react-router-dom';
-function Projects(){
-    return(
-        <section id='projects'>
-            <div className='container'>
-                <a  href="https://akshaykumar3112.github.io/restorent" target="_blank" rel="noopener noreferrer">
-                    <div className='cardlist'> 
-                        <div className='card'>
-                            <img src={Restorent} alt="" />
-                        </div>
-                        <div className='card-info'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                        <div className='title'>
-                            <h1>Restorent</h1>
-                        </div>
-                    </div>
-                </a>
-                <Link  to="/projects/bmicalculator">
-                    <div className='cardlist'>
-                        <div className='card'>
-                            <img src={Bmi} alt="" />
-                        </div>
-                        <div className='card-info'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                        <div className='title'>
-                            <h1>BMI Calculator</h1>
-                        </div>
-                    </div>
-                </Link>
-                <Link  to="/projects/dictionary">
-                    <div className='cardlist'>
-                        <div className='card'>
-                            <img src={dictionary} alt="" />
-                        </div>
-                        <div className='card-info'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                        <div className='title'>
-                            <h1>Dictionary App</h1>
-                        </div>
-                    </div>
-                </Link>
-                
-                
-                <Link  to="/projects/calculator">
-                    <div className='cardlist'> 
-                        <div className='card'>
-                            <img src={calculator} alt="" />
-                        </div>
-                        <div className='card-info'>
-                            <p>Lorem im ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                        <div className='title'>
-                            <h1>Calculator</h1>
-                        </div>
-                    </div>
-                </Link>
+import "./portfolio.css";
+import React from "react";
+import Restorent from "./image/restorent.png";
+import Bmi from "./image/bmi.png";
+import dictionary from "./image/dictionary.png";
+import calculator from "./image/calculator.png";
+import { Link } from "react-router-dom";
+import { Box, Card, CardMedia, CardContent, Typography } from "@mui/material";
 
-                
-            </div>
-        </section>
-    );
+function Projects() {
+  return (
+    <Box component="section" id="projects" sx={{ minHeight: "100vh", bgcolor:"rgb(226, 240, 241)" }}>
+      <div className="card-container">
+        
+        <Card className="card">
+          <a
+            href="https://akshaykumar3112.github.io/restorent"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
+          >
+            <CardMedia component="img" image={Restorent} alt="Restorent App" />
+            <CardContent className="card-info">
+              <Typography variant="h6" className="card-title" component="h2">
+                Restorent App
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                <b>Used Technology</b>
+                <br /> React.js, Material UI, HTML, CSS
+              </Typography>
+            </CardContent>
+          </a>
+        </Card>
+
+        <Card className="card">
+          <Link to="/projects/bmicalculator" style={{ textDecoration: "none" }}>
+            <CardMedia component="img" image={Bmi} alt="BMI App" />
+            <CardContent className="card-info">
+              <Typography variant="h6" component="h2">
+                BMI Calculator
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                <b>Used Technology</b>
+                <br /> JavaScript, Material UI, HTML, CSS
+              </Typography>
+            </CardContent>
+          </Link>
+        </Card>
+
+        <Card className="card">
+          <Link to="/projects/dictionary" style={{ textDecoration: "none" }}>
+            <CardMedia component="img" image={dictionary} alt="BMI App" />
+            <CardContent className="card-info">
+              <Typography variant="h6" component="h2">
+                Dictionary APP
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                <b>Used Technology</b>
+                <br /> JavaScript, API, HTML, CSS
+              </Typography>
+            </CardContent>
+          </Link>
+        </Card>
+
+        <Card className="card" >
+          <Link to="/projects/calculator" style={{ textDecoration: "none" }}>
+            <CardMedia
+              component="img"
+              image={calculator}
+              alt="Calculator App"
+            />
+            <CardContent className="card-info">
+              <Typography variant="h6" component="h2">
+                Calculator App
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                <b>Used Technology</b>
+                <br /> JavaScript, HTML, CSS
+              </Typography>
+            </CardContent>
+          </Link>
+        </Card>
+
+        {/* Repeat the same structure for other project cards */}
+      </div>
+    </Box>
+  );
 }
+
 export default Projects;
