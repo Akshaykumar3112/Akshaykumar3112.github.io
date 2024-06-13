@@ -98,7 +98,7 @@ function Home() {
               }}
             >
                 <a
-            href="https://docs.google.com/document/d/1wBO-2ZnasD4zZ0SIpA162kPJ1UeznSvz/edit?usp=drive_link&ouid=109348536590458894424&rtpof=true&sd=true"
+            href="https://drive.google.com/file/d/1iW62wfjlfzWdCBET7rpZAxoaEEwvfRU7/view?usp=drive_link"
             
             style={{ textDecoration: "none", color: "inherit" }}
           >
